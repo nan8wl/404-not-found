@@ -12,7 +12,7 @@
 
 ## Screenshot
 
-![screenshot](https://github.com/nan8wl/404-not-found/blob/main/404-n-t--found-nan8wl.png)
+![screenshot](https://github.com/nan8wl/404-not-found/blob/main/404-not-found.png)
 
 ### Built With
 
