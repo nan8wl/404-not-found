@@ -46,7 +46,7 @@ main {
 
 img {
     width: 35em;
-
+    margin: 2em;
 }
 
 h2 {
@@ -75,6 +75,8 @@ button {
     color: #FFF;
     font-family: 'Space Mono', monospace;
     background-color: #333333;
+    border-radius: 5px;
+    border: none;
     width: 13.5em;
     height: 4.2em;
 }
@@ -111,7 +113,6 @@ a {
     body {
         margin: 0 auto;
         height: 100vh;
-        width: 380px;
     }
 
     main {
@@ -120,7 +121,7 @@ a {
     }
 
     h1 {
-        padding: 20px 24px;
+        padding: 1.25em 1.5em;
     }
 
     h2 {
@@ -134,20 +135,25 @@ a {
 
     }
 
+    .pic {
+        justify-content: center;
+        display: flex;
+
+    }
+
     .side {
         width: 100%;
-        padding: 24px;
+        padding: 1.5em;
 
     }
 
     p {
         font-family: 'Space Mono', monospace;
         font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-               letter-spacing: -0.035em;
+        font-size: 1em;
+        letter-spacing: -0.035em;
         color: #4F4F4F;
-        padding-right: 12px;
+        padding-right: 0.75em;
     }
 
     img {
@@ -155,8 +161,4 @@ a {
         margin: auto;
     }
 
-    button {
-        width: 216px;
-        height: 68px;
-    }
 }
