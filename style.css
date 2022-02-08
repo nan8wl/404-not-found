@@ -15,13 +15,14 @@ body {
 
 h1 {
     font-family: 'Inconsolata', monospace;
-    color: #333333;
-    font-size: 1em;
-    padding: 2.5em 4em;
+    color: #FF6D5B;
+    font-size: 2em;
+    padding: 1em 4em;
 }
 
 h1:hover {
-    color: #60588e;
+    color: #60588E;
+
 }
 
 main {
@@ -47,6 +48,12 @@ main {
 img {
     width: 35em;
     margin: 2em;
+    transition: transform 0.7s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+
 }
 
 h2 {
@@ -56,7 +63,13 @@ h2 {
     font-size: 5em;
     line-height: 1em;
     letter-spacing: -0.035em;
-    color: #333;
+    color: #FF6D5B;
+    transition: transform 0.7s ease;
+}
+
+h2:hover {
+    transform: scale(1.05);
+    color: #60588e;
 }
 
 p {
@@ -74,15 +87,19 @@ p {
 button {
     color: #FFF;
     font-family: 'Space Mono', monospace;
-    background-color: #333333;
+    background-color: #60588E;
+
     border-radius: 5px;
     border: none;
     width: 13.5em;
     height: 4.2em;
+    font-family: "Roboto", sans-serif;
+    transition: transform 0.7s ease;
 }
 
 button:hover {
-    background-color: #60588e;
+    background-color: #FF6D5B;
+    transform: scale(1.2);
 }
 
 footer {
@@ -106,6 +123,10 @@ a {
     font-size: 0.8em;
     text-align: center;
 
+}
+
+a:hover {
+    color: #FF6D5B;
 }
 
 
