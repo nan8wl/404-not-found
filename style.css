@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500;700&family=Montserrat:wght@500&family=Space+Mono:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color: #FFF;
+    font-family: 'Space Mono', monospace;
+}
+
+h1 {
+    font-family: 'Inconsolata', monospace;
+    color: #333333;
+    font-size: 24px;
+    padding: 40px 77px;
+}
+
+h1:hover {
+    color: #60588e;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 80vh;
+    align-items: center;
+}
+
+.side {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 47px;
+}
+
+.pic {
+    justify-content: center;
+}
+
+img {
+    width: 539px;
+
+}
+
+h2 {
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    color: #333;
+}
+
+p {
+
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+    padding: 36px 0 64px 0;
+}
+
+button {
+    color: #FFF;
+    font-family: 'Space Mono', monospace;
+    background-color: #333333;
+    width: 216px;
+    height: 68px;
+}
+
+button:hover {
+    background-color: #60588e;
+}
+
+footer {
+    padding: 35px;
+}
+
+h6 {
+    color: #bdbdbd;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #bdbdbd;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+}
+
+
+@media only screen and (max-width: 800px) {
+    body {
+        margin: 0 auto;
+        height: 100vh;
+        width: 380px;
+    }
+
+    main {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    h1 {
+        padding: 20px 24px;
+    }
+
+    h2 {
+
+        font-family: 'Space Mono', monospace;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        letter-spacing: -0.035em;
+    }
+
+    .side {
+        width: 100%;
+        padding: 24px;
+
+    }
+
+    p {
+        font-family: 'Space Mono', monospace;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: -0.035em;
+        color: #4F4F4F;
+        padding-right: 12px;
+    }
+
+    img {
+        width: 286px;
+        margin: auto;
+    }
+
+    button {
+        width: 216px;
+        height: 68px;
+    }
+}
